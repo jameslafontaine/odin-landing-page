@@ -121,7 +121,8 @@ body {
 .info-section .cards {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    flex-wrap: wrap;
+    gap: 128px;
     margin: 64px 300px;
 }
 
@@ -132,7 +133,7 @@ body {
 .info-section img {
     border: 5px solid #3882F6;
     border-radius: 16px;
-    height: 175px;
+    height: 250px;
     width: auto;
 }
 
