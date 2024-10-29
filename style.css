@@ -4,7 +4,7 @@
     /* border: red solid 1px; */
 }
 
-/* Full page layout */
+/* || Full page layout */
 
 body {
     font-family: Roboto, sans-serif;
@@ -15,7 +15,7 @@ body {
 }
 
 
-/* Recurring / shared components */
+/* || Recurring / shared components */
 
 
 .header-link,
@@ -35,11 +35,12 @@ body {
     font-weight: 500;
 }
 
-/**** Header ****/
+/* || Header */
 
 .header {
     background-color: #1F2937;
     padding: 8px 164px;
+    flex: 1;
 }
 
 /** Navbar **/
@@ -63,8 +64,6 @@ body {
     color: #F9FAF8;
     font-weight: bold;
 }
-
-.navbar .right {}
 
 /** Hero text section **/
 .hero-text {
@@ -106,17 +105,65 @@ body {
     margin-bottom: 96px;
 }
 
-/**** Information section ****/
-
-/**** Quote section ****/
-.quote-section {
-    background-color: #E5E7EB;
+/* || Information section */
+.info-section {
+    flex: 1;
+    padding: 48px;
 }
 
-/**** Call to action section ****/
+.info-section .header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-section .cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 64px 300px;
+}
+
+.info-section .card {
+    /* border: 4px solid red; */
+}
+
+.info-section img {
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    height: 175px;
+    width: auto;
+}
+
+.card .text {
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+
+/* || Quote section */
+.quote-section {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+/* || Call to action section */
+.action-call-section {
+    flex: 1;
+}
+
 .action-call-box {
     background-color: #3882F6;
 }
 
 
-/**** Footer ****/
+/* || Footer */
