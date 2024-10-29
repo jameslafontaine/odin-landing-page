@@ -35,10 +35,14 @@ body {
     font-weight: 500;
 }
 
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
 /* || Header */
 
 .header {
-    background-color: #1F2937;
     padding: 8px 164px;
     flex: 1;
 }
@@ -122,19 +126,20 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 128px;
+    gap: 96px;
     margin: 64px 300px;
 }
 
 .info-section .card {
     /* border: 4px solid red; */
+    max-width: 215px;
 }
 
 .info-section img {
     border: 5px solid #3882F6;
     border-radius: 16px;
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 200px;
 }
 
 .card .text {
@@ -148,6 +153,7 @@ body {
 .quote-section {
     background-color: #E5E7EB;
     flex: 1;
+    padding: 64px 256px 16px;
 }
 
 .quote {
@@ -155,16 +161,58 @@ body {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    padding: 16px 0;
 }
 
 /* || Call to action section */
 .action-call-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 84px 164px;
 }
 
 .action-call-box {
     background-color: #3882F6;
+    width: 100%;
+    border-radius: 5px;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.action-call-box .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-call-box .text {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-call-box .subtext {
+    color: #F9FAF8;
+}
+
+.action-call-box .signup {
+    border: white solid 2px;
 }
 
 
 /* || Footer */
+.footer {
+    color: #F9FAF8;
+    padding: 36px;
+    text-align: center;
+}
