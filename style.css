@@ -1,31 +1,109 @@
 /* RESET */
 * {
     /* border visualisation */
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 /* Full page layout */
 
 body {
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 
-/* Recurring Components */
+/* Recurring / shared components */
+
+
+.header-link,
+.hero-subtext,
+.signup {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .signup {
     background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin: 10px 0px;
+    color: #F9FAF8;
+    font-weight: 500;
 }
 
 /**** Header ****/
 
 .header {
     background-color: #1F2937;
+    padding: 8px 200px;
 }
 
-/**** Information section ****/
+/** Navbar **/
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.navbar .right {}
+
+/** Hero text section **/
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 96px 0px;
+}
+
+.hero-section .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-section .right {
+    display: flex;
+    background-color: #d9ddde;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-section .signup {
+    align-self: start;
+}
+
+
+/**** Information section ****/
 
 /**** Quote section ****/
 .quote-section {
