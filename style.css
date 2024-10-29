@@ -39,7 +39,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 8px 200px;
+    padding: 8px 164px;
 }
 
 /** Navbar **/
@@ -102,6 +102,9 @@ body {
     align-self: start;
 }
 
+.hero-subtext {
+    margin-bottom: 96px;
+}
 
 /**** Information section ****/
 
