@@ -26,7 +26,7 @@ This project demonstrates:
 
 ## Live Demo
 
-[Your GitHub Pages link here](https://jameslafontaine.github.io/odin-landing-page/)
+(https://jameslafontaine.github.io/odin-landing-page/)
 
 ## Some Future Improvements
 
