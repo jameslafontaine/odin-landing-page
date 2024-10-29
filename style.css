@@ -1,0 +1,41 @@
+/* RESET */
+* {
+    /* border visualisation */
+    border: red solid 1px;
+}
+
+/* Full page layout */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Recurring Components */
+.signup {
+    background-color: #3882F6;
+}
+
+/**** Header ****/
+
+.header {
+    background-color: #1F2937;
+}
+
+/**** Information section ****/
+
+
+/**** Quote section ****/
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+/**** Call to action section ****/
+.action-call-box {
+    background-color: #3882F6;
+}
+
+
+/**** Footer ****/
